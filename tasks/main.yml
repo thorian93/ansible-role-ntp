@@ -21,7 +21,6 @@
     name: "{{ item }}"
     state: present
   with_items: "{{ ntp_prerequisites }}"
-  environment: "{{ env }}"
   when: ansible_os_family == 'Debian'
 
 - name: Configure NTP.
