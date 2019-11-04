@@ -53,6 +53,14 @@ None.
       roles:
         - ansible-role-ntp
 
+## Contributing
+
+Please feel free to open issues if you find any bugs, problems or if you see room for improvement. Also feel free to contact me anytime if you want to ask or discuss something.
+
+## Disclaimer
+
+This role is provided AS IS and I can and will not guarantee that the role works as intended, nor can I be accountable for any damage or misconfiguration done by this role. Study the role thoroughly before using it.
+
 ## License
 
 GPLv3
