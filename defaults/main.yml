@@ -1,5 +1,5 @@
 ---
-# Support for OSes:
+# OS Supported:
 ntp_stable_os:
   - Debian 8
   - Debian 9
