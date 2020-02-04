@@ -27,7 +27,7 @@ ntp_server:
 ntp_restrict:
   - "restrict -4 default kod notrap nomodify nopeer noquery"
   - "restrict -6 default kod notrap nomodify nopeer noquery"
-  - "restrict 127.0.0.1"
+  - "restrict localhost"
 
 ntp_includefile: no
 ntp_statistics: no
