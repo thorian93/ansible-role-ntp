@@ -16,6 +16,7 @@ ntp_stable_os:
   - Fedora 28
   - Fedora 29
   - Fedora 30
+  - Fedora 31
 
 ntp_driftfile: /var/lib/ntp/drift
 ntp_server:
