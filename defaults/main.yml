@@ -9,7 +9,7 @@ ntp_stable_os:
   - Ubuntu 18
   - CentOS 6
   - CentOS 7
-  - CentOS 8
+#  - CentOS 8 # Has no ntp package anymore! Only chrony is available.
   - Fedora 25
   - Fedora 26
   - Fedora 27
