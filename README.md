@@ -4,7 +4,7 @@
 [![Ansible Role: NTP](https://img.shields.io/ansible/quality/51286?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_ntp)
 [![Ansible Role: NTP](https://img.shields.io/ansible/role/d/51286?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_ntp)
 
-This role installs and configures NTP on RHEL/CentOS, Debian/Ubuntu and Fedora servers.
+This role installs and configures NTP on RHEL/CentOS, Debian/Ubuntu, Fedora and Suse servers.
 
 ## Requirements
 
