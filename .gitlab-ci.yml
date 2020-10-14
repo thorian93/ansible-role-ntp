@@ -1,6 +1,6 @@
 ---
 variables:
-  GITHUB_REPO: "git@github.com:thorian93/ansible-role-journald.git"
+  GITHUB_REPO: "git@github.com:thorian93/ansible-role-ntp.git"
 
 stages:
   - cleanup
