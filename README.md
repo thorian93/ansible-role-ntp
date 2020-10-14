@@ -1,5 +1,9 @@
 # Ansible Role: NTP
 
+[![Ansible Role: NTP](https://img.shields.io/ansible/role/51286?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_ntp)
+[![Ansible Role: NTP](https://img.shields.io/ansible/quality/51286?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_ntp)
+[![Ansible Role: NTP](https://img.shields.io/ansible/role/d/51286?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_ntp)
+
 This role installs and configures NTP on RHEL/CentOS, Debian/Ubuntu and Fedora servers.
 
 ## Requirements
@@ -49,7 +53,7 @@ None.
 ## OS Compatibility
 This role ensures that it is not used against unsupported or untested operating systems by checking, if the right distribution name and major version number are present in a dedicated variable named like `<role-name>_stable_os`. You can find the variable in the role's default variable file at `defaults/main.yml`:
 
-    upgrade_stable_os:
+    role_stable_os:
       - Debian 10
       - Ubuntu 18
       - CentOS 7
