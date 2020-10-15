@@ -17,6 +17,7 @@ ntp_stable_os:
   - Ubuntu 14
   - Ubuntu 16
   - Ubuntu 18
+  - Ubuntu 20
 
 ntp_driftfile: /var/lib/ntp/drift
 ntp_server:
