@@ -2,7 +2,7 @@
 ntp_stable_os:
   - CentOS 6
   - CentOS 7
-#  - CentOS 8 # Has no ntp package anymore! Only chrony is available.
+  #  - CentOS 8 # Has no ntp package anymore! Only chrony is available.
   - Debian 8
   - Debian 9
   - Debian 10
@@ -31,5 +31,5 @@ ntp_restrict:
   - "restrict -6 default kod notrap nomodify nopeer noquery"
   - "restrict localhost"
 
-ntp_includefile: no
-ntp_statistics: no
+ntp_includefile: 'no'
+ntp_statistics: 'no'
