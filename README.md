@@ -12,7 +12,7 @@ No special requirements; note that this role requires root access, so either run
 
     - hosts: foobar
       roles:
-        - role: ansible-role-ntp
+        - role: thorian93.ntp
           become: yes
 
 ## Role Variables
