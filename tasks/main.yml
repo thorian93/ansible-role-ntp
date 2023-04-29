@@ -27,6 +27,6 @@
   template:
     src: "ntp.conf.j2"
     dest: "/etc/ntp.conf"
-    backup: 'yes'
+    backup: true
   notify:
     - restart ntp

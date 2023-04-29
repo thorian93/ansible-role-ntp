@@ -3,4 +3,4 @@
   service:
     name: "{{ ntp_name }}"
     state: restarted
-    enabled: 'yes'
+    enabled: true

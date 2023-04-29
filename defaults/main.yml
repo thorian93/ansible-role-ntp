@@ -6,6 +6,7 @@ ntp_stable_os:
   - Debian 8
   - Debian 9
   - Debian 10
+  - Debian 11
   - Fedora 25
   - Fedora 26
   - Fedora 27
@@ -14,10 +15,15 @@ ntp_stable_os:
   - Fedora 30
   - Fedora 31
   - Fedora 32
+  - Fedora 33
+  - Fedora 34
+  - Fedora 35
+  - Fedora 36
   - Ubuntu 14
   - Ubuntu 16
   - Ubuntu 18
   - Ubuntu 20
+  - Ubuntu 22
 
 ntp_driftfile: /var/lib/ntp/drift
 ntp_server:
@@ -31,5 +37,5 @@ ntp_restrict:
   - "restrict -6 default kod notrap nomodify nopeer noquery"
   - "restrict localhost"
 
-ntp_includefile: 'no'
-ntp_statistics: 'no'
+ntp_includefile: false
+ntp_statistics: false

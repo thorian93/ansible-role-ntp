@@ -25,16 +25,15 @@ galaxy_info:
         - Jessie
         - Stretch
         - Buster
+        - Bullseye
     - name: Fedora
       versions:
-        - 25
-        - 26
-        - 27
-        - 28
-        - 29
         - 30
         - 31
         - 32
+        - 33
+        - 34
+        - 35
     - name: SLES
       versions:
         - 11

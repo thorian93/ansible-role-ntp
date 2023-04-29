@@ -1,5 +1,14 @@
 # Ansible Role: NTP
 
+---
+
+## Unmaintained! Moved to collection!
+This role has moved to my [**main** collection](https://github.com/thorian93/main).  
+It is **not** maintained here anymore!  
+Head over to the [collection](https://github.com/thorian93/main) for up to date content.
+
+---
+
 This role installs and configures NTP on RHEL/CentOS, Debian/Ubuntu, Fedora and Suse servers.
 
 [![Ansible Role: NTP](https://img.shields.io/ansible/role/55142?style=flat-square)](https://galaxy.ansible.com/thorian93/ntp)
